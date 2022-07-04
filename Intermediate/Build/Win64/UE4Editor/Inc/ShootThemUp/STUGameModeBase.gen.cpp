@@ -40,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUGameModeBase() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASTUGameModeBase_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "STUGameModeBase.h" },
 		{ "ModuleRelativePath", "Public/STUGameModeBase.h" },
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTUGameModeBase, 2752482370);
+	IMPLEMENT_CLASS(ASTUGameModeBase, 4198815976);
 	template<> SHOOTTHEMUP_API UClass* StaticClass<ASTUGameModeBase>()
 	{
 		return ASTUGameModeBase::StaticClass();
